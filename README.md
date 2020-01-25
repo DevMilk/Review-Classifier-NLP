@@ -1,7 +1,7 @@
 # Review-Classifier-NLP
 It is a Natural Language Processing work using 2 Machine Learning Algorithms and a Keras Deep Learning model
 
-# Its aim is to classify a review as positive, negative or neutral
+**Its aim is to classify a review as positive, negative or neutral**
 
 Lemmatizing, Cleaning, and vectorizing reviews are done by prepare function and nltk library functions
 
