@@ -1,4 +1,4 @@
-# Classifying-reviews
+# Review-Classifier-NLP
 It is a Natural Language Processing work using 2 Machine Learning Algorithms and a Keras Deep Learning model
 
 Lemmatizing, Cleaning and vectorizing reviews are done by prepare function and nltk library functions
