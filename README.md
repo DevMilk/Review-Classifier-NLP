@@ -1,10 +1,19 @@
 # Classifying-reviews
 It is a Natural Language Processing work using 2 Machine Learning Algorithms and a Keras Deep Learning model
 
-Naive Bayes Classification got %62, Logistic Regression Algorithm got %79, Neural Network model got %87 test accuracy.
+Lemmatizing, Cleaning and vectorizing reviews are done by prepare function and nltk library functions
+
+Naive Bayes Classification got %62, Logistic Regression Algorithm got %79 test accuracy.
+
+Neural Network reaches up to %87 test accuracy which is very nice. Adding layers don't change loss and without initializing first weights with lecun uniform model is limits itself by %80 accuracy. Model maybe improved using BERT model and other initializer-regularizer combinations.
 
 Kaggle: https://www.kaggle.com/uurdeep/predict-review-with-ml-and-dl-87-accuracy
 
 
 Comparisons:
-https://github.com/DevMilk/Classifying-reviews/blob/master/__results___17_1.png
+
+![alt text](https://github.com/DevMilk/Classifying-reviews/blob/master/__results___17_1.png)
+
+Learning process:
+
+![alt text](https://github.com/DevMilk/Classifying-reviews/blob/master/plot.png)
